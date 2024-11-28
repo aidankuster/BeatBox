@@ -29,7 +29,7 @@ public class Main extends Application {
 			Parent root = loader.load();
 			Scene scene = new Scene(root,400,400);
 			stage.setTitle("BeatBox ((d[-_-]b))");
-			stage.getIcons().add(new Image("file:/C:/Users/supre/eclipse-workspace/CSC2920Project/BeatBoxIcon/BeatBoxIcon.png"));
+			stage.getIcons().add(new Image("file:BeatBoxIcon/BeatBoxIcon.png"));
 			stage.setResizable(false);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			stage.setScene(scene);
@@ -45,9 +45,9 @@ public class Main extends Application {
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/BT0A0A7.WAV";
+						soundFile = "909samples/BT0A0A7.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808bassdrum.wav";
+						soundFile = "808samples/808bassdrum.wav";
 					
 			        playSound(soundFile);
 				}	
@@ -55,9 +55,9 @@ public class Main extends Application {
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/ST7T0S3.WAV";
+						soundFile = "909samples/ST7T0S3.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808snare.wav";
+						soundFile = "808samples/808snare.wav";
 					
 			        playSound(soundFile);
 				}
@@ -65,9 +65,9 @@ public class Main extends Application {
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HHCD0(lowerVolume).wav";
+						soundFile = "909samples/HHCD0(lowerVolume).wav";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808closedhat.wav";
+						soundFile = "808samples/808closedhat.wav";
 					
 			        playSound(soundFile);
 				}
@@ -75,72 +75,72 @@ public class Main extends Application {
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HHOD0(lowerVolume).wav";
+						soundFile = "909samples/HHOD0(lowerVolume).wav";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808openhat.wav";
+						soundFile = "808samples/808openhat.wav";
 			        playSound(soundFile);
 				}
 				if(b.getCode() == KeyCode.V){ // clap
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HANDCLP1.WAV";
+						soundFile = "909samples/HANDCLP1.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808clap.wav";
+						soundFile = "808samples/808clap.wav";
 			        playSound(soundFile);
 				}
 				if(b.getCode() == KeyCode.F){ // rim
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/RIM63.WAV";
+						soundFile = "909samples/RIM63.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808rim.wav";
+						soundFile = "808samples/808rim.wav";
 			        playSound(soundFile);
 				}	
 				if(b.getCode() == KeyCode.Q){ // crash
 					c.keyPressed(b);
 					String soundFile; 
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/CSHD0(lowerVolume).wav";
+						soundFile = "909samples/CSHD0(lowerVolume).wav";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808crash.wav";
+						soundFile = "808samples/808crash.wav";
 			        playSound(soundFile);
 				}	
 				if(b.getCode() == KeyCode.T){ // ride or clave
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/RIDED0(lowerVolume).wav";
+						soundFile = "909samples/RIDED0(lowerVolume).wav";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808clave.wav";
+						soundFile = "808samples/808clave.wav";
 			        playSound(soundFile);
 				}	
 				if(b.getCode() == KeyCode.J){ // hi tom or cowbell
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HT0D0.WAV";
+						soundFile = "909samples/HT0D0.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808cowbell.wav";
+						soundFile = "808samples/808cowbell.wav";
 			        playSound(soundFile);
 				}	
 				if(b.getCode() == KeyCode.H){ // mid tom
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/MT0D0.WAV";
+						soundFile = "909samples/MT0D0.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808midtom.wav";
+						soundFile = "808samples/808midtom.wav";
 			        playSound(soundFile);
 				}	
 				if(b.getCode() == KeyCode.G){ // low tom
 					c.keyPressed(b);
 					String soundFile;
 					if(c.getDrumMachine() == 1)
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/LT0D0.WAV";
+						soundFile = "909samples/LT0D0.WAV";
 					else
-						soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808lowtom.wav";
+						soundFile = "808samples/808lowtom.wav";
 			        playSound(soundFile);
 				}	
 				

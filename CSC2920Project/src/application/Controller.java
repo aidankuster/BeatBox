@@ -285,7 +285,7 @@ public class Controller extends ToggleButtons{
 			Parent root = FXMLLoader.load(getClass().getResource("Help.fxml"));
 			Scene scene = new Scene(root,400,400);
 			stage.setTitle("BeatBox Help Section");
-			stage.getIcons().add(new Image("file:/C:/Users/supre/eclipse-workspace/CSC2920Project/BeatBoxIcon/BeatBoxIcon.png"));
+			stage.getIcons().add(new Image("file:BeatBoxIcon/BeatBoxIcon.png"));
 			stage.setResizable(false);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			stage.setScene(scene);
@@ -307,7 +307,7 @@ public class Controller extends ToggleButtons{
 			Parent root = FXMLLoader.load(getClass().getResource("Keyboard.fxml"));
 			Scene scene = new Scene(root,400,400);
 			stage.setTitle("BeatBox Live Drumming");
-			stage.getIcons().add(new Image("file:/C:/Users/supre/eclipse-workspace/CSC2920Project/BeatBoxIcon/BeatBoxIcon.png"));
+			stage.getIcons().add(new Image("file:BeatBoxIcon/BeatBoxIcon.png"));
 			stage.setResizable(false);
 			scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			stage.setScene(scene);
@@ -428,7 +428,7 @@ public class Controller extends ToggleButtons{
 	}
 	
 	public void startupSound(){
-		String soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/startupSound.wav";
+		String soundFile = "startupSound.wav";
         playSound(soundFile);
 	}
 	
@@ -466,9 +466,9 @@ public class Controller extends ToggleButtons{
 	public void kick(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/BT0A0A7.WAV";
+			soundFile = "909samples/BT0A0A7.wav";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808bassdrum.wav";
+			soundFile = "808samples/808bassdrum.wav";
 
         playSound(soundFile);
 	}
@@ -477,9 +477,9 @@ public class Controller extends ToggleButtons{
 	public void clap(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HANDCLP1.WAV";
+			soundFile = "909samples/HANDCLP1.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808clap.wav";
+			soundFile = "808samples/808clap.wav";
 			
         playSound(soundFile);
 	}
@@ -488,9 +488,9 @@ public class Controller extends ToggleButtons{
 	public void openHat(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HHOD0(lowerVolume).wav";
+			soundFile = "909samples/HHOD0(lowerVolume).wav";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808openhat.wav";
+			soundFile = "808samples/808openhat.wav";
 
         playSound(soundFile);
 	}
@@ -499,9 +499,9 @@ public class Controller extends ToggleButtons{
 	public void closedHat(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HHCD0(lowerVolume).wav";
+			soundFile = "909samples/HHCD0(lowerVolume).wav";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808closedhat.wav";
+			soundFile = "808samples/808closedhat.wav";
 		
         playSound(soundFile);
 	}
@@ -510,9 +510,9 @@ public class Controller extends ToggleButtons{
 	public void lowTom(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/LT0D0.WAV";
+			soundFile = "909samples/LT0D0.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808lowtom.wav";
+			soundFile = "808samples/808lowtom.wav";
 		
         playSound(soundFile);
 	}
@@ -521,9 +521,9 @@ public class Controller extends ToggleButtons{
 	public void midTom(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/MT0D0.WAV";
+			soundFile = "909samples/MT0D0.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808midtom.wav";
+			soundFile = "808samples/808midtom.wav";
 		
         playSound(soundFile);
 	}
@@ -532,9 +532,9 @@ public class Controller extends ToggleButtons{
 	public void highTom(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/HT0D0.WAV";
+			soundFile = "909samples/HT0D0.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808cowbell.wav";
+			soundFile = "808samples/808cowbell.wav";
 		
         playSound(soundFile);
 	}
@@ -543,9 +543,9 @@ public class Controller extends ToggleButtons{
 	public void rim(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/RIM63.WAV";
+			soundFile = "909samples/RIM63.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808rim.wav";
+			soundFile = "808samples/808rim.wav";
 		
         playSound(soundFile);
 	}
@@ -554,9 +554,9 @@ public class Controller extends ToggleButtons{
 	public void snare(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/ST7T0S3.WAV";
+			soundFile = "909samples/ST7T0S3.WAV";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808snare.wav";
+			soundFile = "808samples/808snare.wav";
 		
         playSound(soundFile);
 	}
@@ -565,9 +565,9 @@ public class Controller extends ToggleButtons{
 	public void crash(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/CSHD0(lowerVolume).wav";
+			soundFile = "909samples/CSHD0(lowerVolume).wav";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808crash.wav";
+			soundFile = "808samples/808crash.wav";
 		
         playSound(soundFile);
 	}
@@ -576,9 +576,9 @@ public class Controller extends ToggleButtons{
 	public void ride(){
 		String soundFile;
 		if(comboBox.getValue() == "TR-909")
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/909samples/RIDED0(lowerVolume).wav";
+			soundFile = "909samples/RIDED0(lowerVolume).wav";
 		else
-			soundFile = "C:/Users/supre/eclipse-workspace/CSC2920Project/808samples/808clave.wav";
+			soundFile = "808samples/808clave.wav";
 		
         playSound(soundFile);
 	}
