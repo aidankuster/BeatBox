@@ -1,0 +1,16 @@
+BeatBox pattern created on Thu Nov 28 15:16:28 EST 2024 at 120 BPM 
+
+Crash		- - - - - - - - - - - - - - - - 
+Clave		x - x x - - - x - x - - - - - - 
+Open Hi-Hat	- - - - - - - - - - - - - - - - 
+Closed Hi-Hat	- - x x - x x - - - x - - x x - 
+Clap		- - - - x - - - - - - - x - - - 
+Rim		- - - - - - - - - - - - - - - - 
+Cowbell		- x x - - - - - - - - - - - - - 
+Mid Tom		- - - - - - - - - - - - - - - - 
+Low Tom		- - - - - - x - - x - - - - - - 
+Snare		- - - - - x - - - - - - x - - x 
+Bass Drum	x - - x - - - - - - x - - x - - 
+		1   |   2   |   3   |   4   |
+
+((d[-_-]b))
