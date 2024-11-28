@@ -1,5 +1,7 @@
 # BeatBox - A Virtual Drum Machine Application
 
+![image alt](https://github.com/aidankuster/BeatBox/blob/main/BeatBoxLogo-removebg-preview.png?raw=true)
+
 Developed by Aidan Kuster with additional help from Mikul Brimley and Daniel Vivar.
 
 - BeatBox is a drum machine application that allows users to create drum beats and rhythmic patterns.
