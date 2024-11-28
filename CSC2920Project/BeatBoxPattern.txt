@@ -1,16 +1,16 @@
-BeatBox pattern created on Thu Nov 28 15:16:28 EST 2024 at 120 BPM 
+BeatBox pattern created on Thu Nov 28 16:52:40 EST 2024 at 135 BPM 
 
 Crash		- - - - - - - - - - - - - - - - 
-Clave		x - x x - - - x - x - - - - - - 
-Open Hi-Hat	- - - - - - - - - - - - - - - - 
-Closed Hi-Hat	- - x x - x x - - - x - - x x - 
+Ride		- - - - - - - - - - - - - - - - 
+Open Hi-Hat	- - x - - - x - - - x - - - x - 
+Closed Hi-Hat	- - - - - - - - - - - - - - - - 
 Clap		- - - - x - - - - - - - x - - - 
-Rim		- - - - - - - - - - - - - - - - 
-Cowbell		- x x - - - - - - - - - - - - - 
-Mid Tom		- - - - - - - - - - - - - - - - 
-Low Tom		- - - - - - x - - x - - - - - - 
-Snare		- - - - - x - - - - - - x - - x 
-Bass Drum	x - - x - - - - - - x - - x - - 
+Rim		- x - x - - - - - - x x - - - - 
+High Tom	- - x - - - - - - - - - - - - - 
+Mid Tom		- - - - - - x - - - - - - - - x 
+Low Tom		- - - - - - - x - - - - - - - - 
+Snare		- - - - - - - - - - - - - - - - 
+Bass Drum	x - - - x - - - x - - - x - x - 
 		1   |   2   |   3   |   4   |
 
 ((d[-_-]b))
