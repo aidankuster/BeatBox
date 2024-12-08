@@ -209,6 +209,7 @@ public class Controller extends ToggleButtons{
 			}
 		}
 		printToConsole("Pattern cleared");
+		System.out.println("Pattern cleared");
 	}
 	
 	//creates a .txt file named BeatBoxPattern that records the users pattern in a fashion similar to a drum tab
@@ -332,7 +333,7 @@ public class Controller extends ToggleButtons{
 			ride.setLayoutX(44);
 			highTom.setText("COWBELL");
 			drumMachine = 0;
-			System.out.println(drumMachine);
+			System.out.println("Drum machine changed to TR-808");
 			printToConsole("Drum machine changed to TR-808");
 		}
 		else if(comboBox.getValue() == "TR-909"){
@@ -342,7 +343,7 @@ public class Controller extends ToggleButtons{
 			ride.setLayoutX(50);
 			highTom.setText("HIGH TOM");
 			drumMachine = 1;
-			System.out.println(drumMachine);
+			System.out.println("Drum machine changed to TR-909");
 			printToConsole("Drum machine changed to TR-909");
 		}
 	}
