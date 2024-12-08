@@ -12,13 +12,13 @@ Developed by Aidan Kuster with additional help from Mikul Brimley and Daniel Viv
 ![image alt](https://github.com/aidankuster/BeatBox/blob/main/Screenshot%20(137).png?raw=true)
 
 # Run Instructions
-  1. Download Java JDK (preferrably version 20.0.2)
+  1. Download and install the Java JDK (preferrably version 20.0.2)
      
      https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html
-  3. Download JavaFX (preferrably version 22.0.2)
+  3. Download and install JavaFX (preferrably version 22.0.2)
 
      https://gluonhq.com/products/javafx/
-  5. Download the Google Font Audiowide
+  5. Download and install the Google Font Audiowide
 
      https://fonts.google.com/specimen/Audiowide
   7. On this GitHub page, click the drop-down on the green 'Code' button and download BeatBox as a ZIP file.
