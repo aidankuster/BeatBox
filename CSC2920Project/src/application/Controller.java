@@ -357,12 +357,11 @@ public class Controller extends ToggleButtons{
 		// this method is called when the user hits the 'On/Off' button to play their pattern
 		// uses the sleepTime long to sleep the thread inbetween steps (iterations of the loop)
 		playing[0] = !playing[0];
-		patternOn();
 		printToConsole("");
 		
 		if(playing[0]){
 			currentStep = 0;
-			
+			patternOn();
 			scheduler = Executors.newScheduledThreadPool(1);
 			scheduler.scheduleAtFixedRate(() -> {			
 				radioArray[currentStep].setSelected(true);
@@ -415,9 +414,7 @@ public class Controller extends ToggleButtons{
 				
 				// if on step 16 (final step of the bar) reset back to step 0, thus creating the indefinite loop
 				currentStep = (currentStep + 1) % 16;
-				System.out.println(currentStep);
-				
-			
+						
 		}, 0, sleepTime, TimeUnit.MILLISECONDS);
 		}
 		else{
@@ -432,10 +429,12 @@ public class Controller extends ToggleButtons{
 	// patternOn and patternOff update the visual element next to the On/Off button showing if the pattern is playing or not
 	public void patternOn(){
 		pattern.setText("PLAYING PATTERN: TRUE");
+		System.out.println("PLAYING PATTERN: TRUE ((d[-_-]b))");
 	}
 	
 	public void patternOff(){
 		pattern.setText("PLAYING PATTERN: FALSE");
+		System.out.println("PLAYING PATTERN: FALSE d[-_-]b");
 	}
 	
 	// application will play this sound upon startup
