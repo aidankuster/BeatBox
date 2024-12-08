@@ -15,16 +15,16 @@ Developed by Aidan Kuster with additional help from Mikul Brimley and Daniel Viv
   1. Download and install the Java JDK (preferrably version 20.0.2)
      
      https://www.oracle.com/java/technologies/javase/jdk20-archive-downloads.html
-  3. Download and install JavaFX (preferrably version 22.0.2)
+  2. Download and install JavaFX (preferrably version 22.0.2)
 
      https://gluonhq.com/products/javafx/
-  5. Download and install the Google Font Audiowide
+  3. Download and install the Google Font Audiowide
 
      https://fonts.google.com/specimen/Audiowide
-  7. On this GitHub page, click the drop-down on the green 'Code' button and download BeatBox as a ZIP file.
-  8. Extract this ZIP and find the BeatBox.jar file contained inside. Move this jar file to your Desktop.
-  9. Open the Command Prompt and navigate to your desktop directory. This can typically be done by simply typing "cd Desktop" into the command prompt window.
-  10. Input the following message into the Command Prompt with your own filepath for the JavaFX 'lib' file (which can be found inside of the JavaFX folder from step 2)
+  4. On this GitHub page, click the drop-down on the green 'Code' button and download BeatBox as a ZIP file.
+  5. Extract this ZIP and find the BeatBox.jar file contained inside. Move this jar file to your Desktop.
+  6. Open the Command Prompt and navigate to your desktop directory. This can typically be done by simply typing "cd Desktop" into the command prompt window.
+  7. Input the following message into the Command Prompt with your own filepath for the JavaFX 'lib' file (which can be found inside of the JavaFX folder, refer back to Step 2)
      
      java --module-path "C:\Users\YourName\path\to\openjfx-22.0.2_windows-x64_bin-sdk\javafx-sdk-22.0.2\lib" --add-modules javafx.controls,javafx.fxml -jar BeatBox.jar
   
